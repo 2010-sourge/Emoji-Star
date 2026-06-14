@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d89a5c;
+}
+
+.card{
+    width: 350px;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0,0,0,.15);
+}
+
+.emoji{
+    text-align: center;
+    font-size: 90px;
+    padding: 25px 0;
+}
+
+.rating{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+
+.rating input{
+    display: none;
+}
+
+.rating label{
+    font-size: 35px;
+    color: #cfcfcf;
+    cursor: pointer;
+    transition: .3s;
+}
+
+/* Hover */
+.rating label:hover,
+.rating label:hover ~ label{
+    color: #FFD700;
+}
+
+/* Seleção */
+.rating input:checked ~ label{
+    color: #FFD700;
+}
+
+.footer{
+    border-top: 1px solid #ddd;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #444;
+    font-size: 15px;
+}
