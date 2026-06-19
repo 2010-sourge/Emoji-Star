@@ -1,6 +1,6 @@
 # Rating Card
 
-Um componente simples de avaliação (rating card) construído com HTML, CSS e JavaScript. Permite que o usuário avalie uma experiência de 0 a 5 estrelas, com um emoji que reage dinamicamente à nota escolhida.
+Um componente simples de avaliação (rating card) construído com HTML, CSS. Permite que o usuário avalie uma experiência de 0 a 5 estrelas, com um emoji que reage dinamicamente à nota escolhida.
 
 ## Demonstração
 
